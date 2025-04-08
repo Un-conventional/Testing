@@ -10,9 +10,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/js/select2.min.js"></script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Unbox Testing</title>
-    <meta name="application-name" content="Unbox Testing" />
-    <meta name="apple-mobile-web-app-title" content="Unbox Testing">
+    <title>Unbox</title>
+    <meta name="application-name" content="Unbox" />
+    <meta name="apple-mobile-web-app-title" content="Unbox">
     <meta name="description" content="Unbox is an online tool for sketching and sharing instrumental music." />
     <meta name="keywords" content="chiptune, instrumental, music, song, melody, composition, tool, free, online, square wave, NES, NSF, ultrabox, beepbox, jummbox, pandorasbox, modbox, sandbox, goldbox, wackybox, todbox, unbox, BotB" />
     <meta name="mobile-web-app-capable" content="yes" />
@@ -174,18 +174,27 @@
         <section>
 
             <h1>
-                <font>Unbox Testing</font>
+                <font>Unbox</font>
                 <span id="goldboxPlant" style="display: inline; color:#7bc7cb"></span>
                 <!-- <span id="goldboxPlant" style="display: inline; color: var(--plant-color, var(--link-accent, #62a13b));"></span> -->
             </h1>
             
             <p id="introduction">
-                This is the testing version of Unbox, don't expect things to work. Some features may still be incomplete and incompatible. What you make here WILL be LOST over time. </a>.
-                <!--For any questions or information here is the <a href="./information.html">FAQ</a>. Redundant info with the new FAQ--->
+                Unbox is a online tool for sketching and sharing chiptune music. This is a modification of Ultrabox which is made by Neptendo and Main. <br>
+                Listed here are elements that make up UltraBox, (see <a href="./credits.html">credits</a>).
+                At this point in time, this is a testing ground for the strange, hopefully cool, stuff Unconventional has manufactured.
+                Expect things to be broken and or unfinished whilst its in pre-alpha.
+                You can use the built in shorten URL function or use Pastelink to shorten the links.
+                If the link is too large, the link to pastelink can be found <a href="https://pastelink.net/">here</a>.
             </p>
+            <!-- <p>
+                All song data is contained in the URL at the top of your browser.
+                When you make changes to the song, the URL is updated to reflect your changes.
+                When you are satisfied with your song, just copy and paste the URL to save and share your song!
+            </p> -->
             <p>
-                Unbox is testing this - 
-                Everything right now
+                If you have any questions, please visit the <a href="./faq.html">FAQ</a>. Visit the <a href="./patch_notes.html">patch notes</a> to see the latest changes made.
+                <img id="Hotdog" src="" width="500" height="333" onclick="changeHotdogSize()" />
             </p>
             <!--
     <div class="donation">
@@ -342,7 +351,7 @@
         // Slarmoo's Box plants
         //"✨","🌈","🌧️","🪨","🐍","🌲","🌳",
         // Unbox Plants - Ask me which ones to be added to Ultra if they are to be added
-        "🌵","🔔","🪨 🧻 ✂️","👁️ 🎯 🫵 🌵","⚠️","🛆 🏆","🪓","🌳 🪓","Team triangle wins!","🐛⬅️SN63A07",", It's Not UnBox!","Try BotB","Try NepBox","5️⃣6️⃣","🍪","try your best or do your worst-BotB","The axe forgets, but the tree remembers","Did you save?"];
+        "🌵","🔔","🪨 🧻 ✂️","👁️ 🎯 🫵 🌵","⚠️","🛆 🏆","🪓","🌳 🪓","Team triangle wins!","🐛⬅️SN63A07",", It's Not UnBox!","Try BotB","Try NepBox","5️⃣6️⃣","🍪","Try your Worst","Do your Best","Try your Best, Do your Worst - BotB","Did you save?","Be whelmed"];
 
         if (Math.floor(Math.random() * 3) == 0) {
             document.getElementById("goldboxPlant").innerHTML = "  " + plants[(Math.floor(Math.random() * plants.length))];  
