@@ -353,7 +353,7 @@
         // Randomize display of header
         // 1-in-9 chance to appear // maybe 1 in 3?
         // Might keep or remove non Unbox plants?
-        const plants = [" 🌵"," 🔔"," 🪨 🧻 ✂️"," 👁️ 🎯 🫵 🌵"," ⚠️"," 🛆 🏆"," 🪓"," 🌳 🪓 ⚠️"," - Team triangle wins!"," - 🐛⬅️SN63A07"," 🦆"," "," - It's Not UnBox!"," - Try BotB"," - Try NepBox!"," - Try UltraBox!"," - Try Slarmoo's Box!"," - Try Midbox!"," - Try AbyssBox!"," 5️⃣6️⃣"," - Here, have a Cookie 🍪"," 🍪"," - Try your Worst"," - Do your Best"," - Try your Best, Do your Worst - BotB"," - Did you save?"," - Be whelmed"," - Eat a Bamhurger!"," - Use the Buzzer"," - Check out the Wiki!","Did you check the Guide?"];
+        const plants = [" 🌵"," 🔔"," 🪨 🧻 ✂️"," 👁️ 🎯 🫵 🌵"," ⚠️"," 🛆 🏆"," 🪓"," 🌳 🪓 ⚠️"," - Team triangle wins!"," - 🐛⬅️SN63A07"," 🦆"," "," - It's Not UnBox!"," - Try BotB"," - Try NepBox!"," - Try UltraBox!"," - Try Slarmoo's Box!"," - Try Midbox!"," - Try AbyssBox!"," 5️⃣6️⃣"," - Here, have a Cookie 🍪"," 🍪"," - Try your Worst"," - Do your Best"," - Try your Best, Do your Worst - BotB"," - Did you save?"," - Be whelmed"," - Eat a Bamhurger!"," - Use the Buzzer"," - Check out the Wiki!"," - Did you check the Guide?"," - Insolitum"];
 
         if (Math.floor(Math.random() * 1) == 0) { //Reset to 3 before release
             document.getElementById("goldboxPlant").innerHTML = "  " + plants[(Math.floor(Math.random() * plants.length))];  
@@ -369,22 +369,22 @@
         if ((date.getDate() == 20) && date.getMonth() == 0) { // Unbox birthday Jan 20
             document.getElementById("goldboxPlant").innerHTML = " 🎂🎉🍰🧁🎈🎁🥳,"," 🎂"," 🎉"," 🍰"," 🧁"," 🎈"," 🎁"," 🥳";  
         }
-        if ((date.getDate() == 14) && date.getmonth() == 2) { // Pi day
+        if ((date.getDate() == 14) && date.getMonth() == 2) { // Pi day
             document.getElementById("goldboxPlant").innerHTML = " π"," 🥧"," π🥧"," - It's PIE DAY! 🥧";
         }
-        if ((date.getDate() == 14) && date.getmonth() == 2) { // Saint Patrick's Day
+        if ((date.getDate() == 14) && date.getMonth() == 2) { // Saint Patrick's Day
             document.getElementById("goldboxPlant").innerHTML = " ☘️";
         }
-        if ((date.getDate() == 1) && date.getmonth() == 3) { // April Fools
-            document.getElementById("goldboxPlant").innerHTML = " 🥸";
+        if ((date.getDate() == 1) && date.getMonth() == 3) { // April Fools
+            document.getElementById("goldboxPlant").innerHTML = "stole all of your beeps.";
         }
-        if ((date.getDate() == 22) && date.getmonth() == 3) { // Earth day
+        if ((date.getDate() == 22) && date.getMonth() == 3) { // Earth day
             document.getElementById("goldboxPlant").innerHTML = " 🌎";
         }
-        if ((date.getDate() == 2) && date.getmonth() == 9) { // Oct 2
+        if ((date.getDate() == 2) && date.getMonth() == 9) { // Oct 2
             document.getElementById("goldboxPlant").innerHTML = " 🎂";
         }
-        if ((date.getDate() == 31) && date.getmonth() == 9) { // Oct 31 Halloween
+        if ((date.getDate() == 31) && date.getMonth() == 9) { // Oct 31 Halloween
             document.getElementById("goldboxPlant").innerHTML = " 🌕"," 🦇"," 👻"," ⚰️"," 🧛"," 🐈‍⬛"," 🕸️"," 🎃"," 🍬"," 🍫"," 🍭";
         }
         if ((date.getDate() == 24) && date.getMonth() == 11) { // Dec 24
